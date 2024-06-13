@@ -8,16 +8,19 @@ sudo apt-get update
 ```
 To get this repository, run the following command inside your git enabled terminal
 ```bash
-git clone https://github.com/yeshwanthlm/django-on-ec2.git
+git clone https://github.com/Theogene-dotcom/django-ec2.git
 ```
+cd project name---
+
 You will need django to be installed in you computer to run this app. Head over to https://www.djangoproject.com/download/ for the download guide
 
 Download django usig pip
 ```bash
 sudo apt install python3-pip -y
 ```
+
 ```bash
-pip install django
+Sudo apt install python3-django
 ```
 Once you have downloaded django, go to the cloned repo directory and run the following command
 
@@ -46,3 +49,4 @@ python3 manage.py runserver
 Once the server is hosted, head over to http://127.0.0.1:8000/todos for the App.
 
 Cheers and Happy Coding :)
+
